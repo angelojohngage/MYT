@@ -68,19 +68,34 @@ div {
 .column.large {
   width: 630px;
   height: 560px;
+
 }
 
 .stories {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
 
 }
 
 .lead-story .image-content {
   background-image: url(resources/images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+
 }
 
 .tree.image-content {
  background-image: url(resources/images/img-story-2.png);
+
 }
 
 .camera.image-content {
@@ -103,11 +118,16 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 16px;
 }
 
 .image-content {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+ flex-direction: column;
+ height: 300px;
+ margin-top: 15px;
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+ text-align: center;
 }
