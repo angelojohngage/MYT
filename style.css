@@ -70,10 +70,44 @@ div {
   height: 560px;
 }
 
+.stories {
+  display: inline-flex;
+
+}
+
+.lead-story .image-content {
+  background-image: url(resources/images/img-story-main.png);
+}
+
+.tree.image-content {
+ background-image: url(resources/images/img-story-2.png);
+}
+
+.camera.image-content {
+  background-image: url(resources/images/img-story-3.png);
+}
+
 .column.medium {
   width: 300px;
 }
 
+.cat.image-content {
+  background-image: url(resources/images/img-story-1.png);
+}
+
 .column.small {
   width: 240px;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
