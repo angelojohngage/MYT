@@ -48,7 +48,7 @@ a {
 }
 
 div {
-  border: 1px solid black;
+
 }
 
 .content {
@@ -85,7 +85,7 @@ div {
 }
 
 .lead-story .image-content {
-  background-image: url(resources/images/img-story-main.png);
+  background-image: url(http://github.com/angelojohngage/MYT/img-story-main.png);
   width: 630px;
   margin-top: 0;
   font-size: 40px;
@@ -94,12 +94,12 @@ div {
 }
 
 .tree.image-content {
- background-image: url(resources/images/img-story-2.png);
+ background-image: url(http://github.com/angelojohngage/MYT/img-story-2.png);
 
 }
 
 .camera.image-content {
-  background-image: url(resources/images/img-story-3.png);
+  background-image: url(http://github.com/angelojohngage/MYT/img-story-3.png);
 }
 
 .column.medium {
@@ -107,7 +107,7 @@ div {
 }
 
 .cat.image-content {
-  background-image: url(resources/images/img-story-1.png);
+  background-image: url(http://github.com/angelojohngage/MYT/img-story-1.png);
 }
 
 .column.small {
